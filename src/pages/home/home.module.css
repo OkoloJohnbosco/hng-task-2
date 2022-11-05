@@ -86,6 +86,7 @@
 }
 .main_profile > div img {
   object-fit: contain;
+  max-width: 100%;
 }
 
 .main_profile p:first-of-type {

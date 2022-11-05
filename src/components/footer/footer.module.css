@@ -9,6 +9,9 @@
   align-items: center;
 }
 
+.footer img {
+  max-width: 100%;
+}
 .footer p {
   color: #667085;
   text-align: center;
