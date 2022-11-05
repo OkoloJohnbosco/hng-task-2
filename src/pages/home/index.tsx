@@ -37,7 +37,7 @@ export default function Home() {
           <img src={slackImg} alt="slack icon" />
         </a>
         <a
-          href="https://github.com/OkoloJohnbosco/HNG-task-1"
+          href="https://github.com/OkoloJohnbosco/hng-task-2"
           target="_blank"
           rel="noopener noreferrer"
         >
