@@ -38,11 +38,11 @@ function Contact() {
             placeholder="Send me a message and I'll reply you as soon as possible..."
           />
         </div>
-        <div>
-          {/* <input
-        type="checkbox"
-        style={{ padding: "20px", color: "red", background: "red" }}
-      /> */}
+        <div className={styles.form_checkbox}>
+          <input name="checkbox" type="checkbox" />
+          <label htmlFor="checkbox">
+            You agree to providing your data to Johnbosco who may contact you.
+          </label>
         </div>
         <div>
           <Button id="btn__submit">Send message</Button>

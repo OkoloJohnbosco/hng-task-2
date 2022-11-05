@@ -13,8 +13,8 @@ function Input({
 }) {
   return (
     <div className={styles.form_group}>
-      <label>{label}</label>
-      <input type={type} placeholder={placeholder} id={id} />
+      <label htmlFor={id}>{label}</label>
+      <input type={type} name={id} placeholder={placeholder} id={id} />
     </div>
   );
 }

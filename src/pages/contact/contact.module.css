@@ -27,7 +27,24 @@ form.form_container > *:last-child {
   column-gap: 20px;
   row-gap: 20px;
 }
+/*  */
+.form_checkbox {
+  display: flex;
+  align-items: flex-start;
+  color: var(--text-gray-color);
+}
 
+.form_checkbox input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+  border-radius: 100px;
+  margin-right: 8px;
+  border: 0px solid;
+}
+
+.form_checkbox label {
+  font-size: 14px;
+}
 @media (max-width: 600px) {
   .form_group_double {
     grid-template-columns: 1fr;
