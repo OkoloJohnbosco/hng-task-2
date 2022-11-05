@@ -33,6 +33,12 @@ export const links = [
     href: "https://books.zuri.team/design-rules ",
     subText: "Design books",
   },
+  {
+    id: "contact",
+    href: "contact",
+    subText: "Contact",
+    isExternal: false,
+  },
 ];
 
 function Link({
@@ -48,13 +54,7 @@ function Link({
 }) {
   if (!isExternal) {
     return (
-      <NavLink
-        id={id}
-        to={href}
-        className={styles.link}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <NavLink id={id} to={href} className={styles.link}>
         <div>
           <span>{children}</span>
         </div>

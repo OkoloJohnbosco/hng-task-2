@@ -27,7 +27,12 @@ export default function Home() {
       </section>
       <div className={styles.main_link}>
         {links.map((link) => (
-          <Link id={link.id} key={link.id} href={link.href}>
+          <Link
+            id={link.id}
+            key={link.id}
+            href={link.href}
+            isExternal={link?.isExternal}
+          >
             {link.subText}
           </Link>
         ))}
