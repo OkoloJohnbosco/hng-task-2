@@ -4,7 +4,7 @@ import Input from "../../components/input";
 function Contact() {
   return (
     <div>
-      <Input label="Boss" placeholder="omo" />
+      <Input label="First Name" placeholder="Enter your first name" />
     </div>
   );
 }

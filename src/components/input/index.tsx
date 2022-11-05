@@ -1,4 +1,4 @@
-import React from "react";
+import styles from "./input.module.css";
 
 function Input({
   label,
@@ -10,7 +10,7 @@ function Input({
   placeholder: string;
 }) {
   return (
-    <div>
+    <div className={styles.form_group}>
       <label>{label}</label>
       <input type={type} placeholder={placeholder} />
       <input
