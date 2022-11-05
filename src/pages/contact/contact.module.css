@@ -17,14 +17,24 @@
 form.form_container > * {
   padding-bottom: 20px;
 }
+
+form.form_container > *:last-child {
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
 .main_header h2 {
   font-size: 2rem;
   padding-bottom: 20px;
   font-weight: 900;
 }
 
+.main_header p {
+  font-size: 1.25rem;
+}
+
 .main_header {
   padding-bottom: 74px;
+  color: var(--link-color);
 }
 
 .form_group_double {
@@ -41,5 +51,9 @@ form.form_container > * {
 
   .main_header {
     padding-bottom: 50px;
+  }
+
+  .main_header p {
+    font-size: 1.15rem;
   }
 }
