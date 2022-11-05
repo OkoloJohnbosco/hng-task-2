@@ -13,3 +13,22 @@
   width: 95%;
   flex: 1;
 }
+
+form.form_container > * {
+  padding-bottom: 20px;
+}
+.main_header h2 {
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+.main_header {
+  padding-bottom: 50px;
+}
+
+.form_group_double {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+}

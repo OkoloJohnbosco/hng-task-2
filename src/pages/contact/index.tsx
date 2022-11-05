@@ -10,8 +10,22 @@ function Contact() {
           <h2>Contact Me</h2>
           <p>Hi there, contact me to ask me about anything you have in mind.</p>
         </div>
-        <Input label="First Name" placeholder="Enter your first name" />
-        <Button>Submit</Button>
+        <form className={styles.form_container}>
+          <div className={styles.form_group_double}>
+            <Input label="First name" placeholder="Enter your first name" />
+            <Input label="Last name" placeholder="Enter your last name" />
+          </div>
+          <div>
+            <Input
+              label="Email"
+              placeholder="yourname@gmail.com"
+              type="email"
+            />
+          </div>
+          <div>
+            <Button>Submit</Button>
+          </div>
+        </form>
       </main>
     </div>
   );
