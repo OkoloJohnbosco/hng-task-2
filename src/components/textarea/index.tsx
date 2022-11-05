@@ -2,11 +2,9 @@ import styles from "./textarea.module.css";
 
 function Textarea({
   label,
-  type = "text",
   placeholder,
 }: {
   label: string;
-  type?: string;
   placeholder: string;
 }) {
   return (

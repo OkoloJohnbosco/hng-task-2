@@ -1,5 +1,6 @@
 import Button from "../../components/button";
 import Input from "../../components/input";
+import Textarea from "../../components/textarea";
 import styles from "./contact.module.css";
 
 function Contact() {
@@ -20,6 +21,12 @@ function Contact() {
               label="Email"
               placeholder="yourname@gmail.com"
               type="email"
+            />
+          </div>
+          <div>
+            <Textarea
+              label="Message"
+              placeholder="Send me a message and I'll reply you as soon as possible..."
             />
           </div>
           <div>
