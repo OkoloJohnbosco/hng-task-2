@@ -1,12 +1,17 @@
 import React from "react";
 import "./App.css";
 import Home from "./pages/home";
+import Contact from "./pages/contact";
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
   },
 ]);
 

@@ -3,6 +3,9 @@
   --link-bg: #eaecf0;
   --link-color: #101828;
   --link-dark-bg: #d0d5dd;
+  --label-color: #344054;
+  --input-border-color: #d0d5dd;
+  --placeholder-color: #667085;
 }
 
 html,
