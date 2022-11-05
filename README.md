@@ -10,7 +10,7 @@ In the project directory, you can run:
 
 ### `yarn install`
 
-Installs the app dependencies listed in the package.json\
+Installs the app dependencies listed in the package.json
 
 ## Usage
 
