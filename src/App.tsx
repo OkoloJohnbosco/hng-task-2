@@ -4,7 +4,7 @@ import "./App.css";
 const App: React.FC = () => {
   return (
     <div>
-      <p>My daddy</p>
+      <span>My daddy</span>
     </div>
   );
 };
