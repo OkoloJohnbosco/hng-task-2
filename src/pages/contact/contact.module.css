@@ -1,3 +1,8 @@
+.main_wrapper {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+}
 form.form_container > * {
   padding-bottom: 20px;
 }
@@ -35,8 +40,8 @@ form.form_container > *:last-child {
 }
 
 .form_checkbox input[type="checkbox"] {
-  height: 20px;
-  width: 20px;
+  height: 16px;
+  width: 16px;
   border-radius: 100px;
   margin-right: 8px;
   border: 0px solid;

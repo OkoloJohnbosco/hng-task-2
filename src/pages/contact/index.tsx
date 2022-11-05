@@ -5,7 +5,7 @@ import styles from "./contact.module.css";
 
 function Contact() {
   return (
-    <>
+    <div className={styles.main_wrapper}>
       <div className={styles.main_header}>
         <h2>Contact Me</h2>
         <p>Hi there, contact me to ask me about anything you have in mind.</p>
@@ -48,7 +48,7 @@ function Contact() {
           <Button id="btn__submit">Send message</Button>
         </div>
       </form>
-    </>
+    </div>
   );
 }
 
