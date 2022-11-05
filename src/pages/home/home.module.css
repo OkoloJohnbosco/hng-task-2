@@ -19,10 +19,16 @@
   border-radius: 100%;
   height: 40px;
   width: 40px;
+  display: grid;
+  place-items: center;
   border: 1px dashed #d0d5dd;
   background-color: #fff;
   color: #d0d5dd;
   cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+.main_profile_menu:hover {
+  background-color: rgba(0, 0, 0, 0.02);
 }
 
 .main_profile_menu svg:first-of-type {

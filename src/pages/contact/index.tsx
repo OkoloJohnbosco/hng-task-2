@@ -12,20 +12,34 @@ function Contact() {
       </div>
       <form className={styles.form_container}>
         <div className={styles.form_group_double}>
-          <Input label="First name" placeholder="Enter your first name" />
-          <Input label="Last name" placeholder="Enter your last name" />
+          <Input
+            id="first_name"
+            label="First name"
+            placeholder="Enter your first name"
+          />
+          <Input
+            id="last_name"
+            label="Last name"
+            placeholder="Enter your last name"
+          />
         </div>
         <div>
-          <Input label="Email" placeholder="yourname@gmail.com" type="email" />
+          <Input
+            id="email"
+            label="Email"
+            placeholder="yourname@gmail.com"
+            type="email"
+          />
         </div>
         <div>
           <Textarea
+            id="message"
             label="Message"
             placeholder="Send me a message and I'll reply you as soon as possible..."
           />
         </div>
         <div>
-          <Button>Send message</Button>
+          <Button id="btn__submit">Send message</Button>
         </div>
       </form>
     </>
