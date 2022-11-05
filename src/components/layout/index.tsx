@@ -1,11 +1,13 @@
-import { ReactNode } from "react";
 import Footer from "../footer";
 import styles from "./layout.module.css";
+import { Outlet } from "react-router-dom";
 
-export default function Home({ children }: { children: ReactNode }) {
+export default function Layout() {
   return (
     <div className={styles.container}>
-      <main className={styles.main}>{children}</main>
+      <main className={styles.main}>
+        <Outlet />
+      </main>
 
       <Footer />
     </div>

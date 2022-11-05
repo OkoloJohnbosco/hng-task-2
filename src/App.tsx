@@ -4,16 +4,23 @@ import Home from "./pages/home";
 import Contact from "./pages/contact";
 import ErrorPage from "./pages/error";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Layout from "./components/layout";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Layout />,
     errorElement: <ErrorPage />,
-  },
-  {
-    path: "/contact",
-    element: <Contact />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+    ],
   },
 ]);
 
