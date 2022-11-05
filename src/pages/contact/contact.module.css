@@ -20,10 +20,11 @@ form.form_container > * {
 .main_header h2 {
   font-size: 2rem;
   padding-bottom: 20px;
+  font-weight: 900;
 }
 
 .main_header {
-  padding-bottom: 50px;
+  padding-bottom: 74px;
 }
 
 .form_group_double {
@@ -31,4 +32,14 @@ form.form_container > * {
   grid-template-columns: 1fr 1fr;
   column-gap: 20px;
   row-gap: 20px;
+}
+
+@media (max-width: 600px) {
+  .form_group_double {
+    grid-template-columns: 1fr;
+  }
+
+  .main_header {
+    padding-bottom: 50px;
+  }
 }

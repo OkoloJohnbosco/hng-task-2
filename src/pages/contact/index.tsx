@@ -23,7 +23,7 @@ function Contact() {
             />
           </div>
           <div>
-            <Button>Submit</Button>
+            <Button>Send message</Button>
           </div>
         </form>
       </main>
