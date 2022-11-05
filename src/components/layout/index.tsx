@@ -1,6 +1,6 @@
 import Footer from "../footer";
 import styles from "./layout.module.css";
-import { Outlet } from "react-router-dom";
+import { Outlet, ScrollRestoration } from "react-router-dom";
 import { ReactNode } from "react";
 
 export default function Layout({ children }: { children?: ReactNode }) {
@@ -12,6 +12,7 @@ export default function Layout({ children }: { children?: ReactNode }) {
       </main>
 
       <Footer />
+      <ScrollRestoration />
     </div>
   );
 }
