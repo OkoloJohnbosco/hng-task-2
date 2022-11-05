@@ -1,4 +1,4 @@
-import Link, { links } from "../../components/link";
+import Link from "../../components/link";
 import styles from "./home.module.css";
 import ingreImg from "../../assets/images/profile.jpg";
 import slackImg from "../../assets/images/slack.svg";
@@ -6,6 +6,7 @@ import gitImg from "../../assets/images/git.svg";
 import { AiOutlineCamera } from "react-icons/ai";
 import { IoMdShareAlt } from "react-icons/io";
 import { BsThreeDots } from "react-icons/bs";
+import { links } from "../../constants/link";
 
 export default function Home() {
   return (
