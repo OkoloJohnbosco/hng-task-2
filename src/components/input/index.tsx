@@ -15,10 +15,6 @@ function Input({
     <div className={styles.form_group}>
       <label>{label}</label>
       <input type={type} placeholder={placeholder} id={id} />
-      {/* <input
-        type="checkbox"
-        style={{ padding: "20px", color: "red", background: "red" }}
-      /> */}
     </div>
   );
 }

@@ -13,7 +13,7 @@
   letter-spacing: 0.6px;
 }
 
-.form_group input:not([type="checkbox"]) {
+.form_group input {
   display: flex;
   outline: none;
   font-family: "Inter";
@@ -32,18 +32,11 @@
   flex-grow: 0;
 }
 
-.form_group input:not([type="checkbox"])::placeholder {
+.form_group input::placeholder {
   color: var(--placeholder-color);
 }
 
-.form_group input:not([type="checkbox"]):focus {
+.form_group input:focus {
   border-color: var(--input-active-border-color);
   outline: none;
-}
-
-.form_group input[type="checkbox"] {
-  height: 20px;
-  width: 20px;
-  border-radius: 30px;
-  border: 1px solid red;
 }

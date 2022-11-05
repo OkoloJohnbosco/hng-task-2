@@ -39,6 +39,12 @@ function Contact() {
           />
         </div>
         <div>
+          {/* <input
+        type="checkbox"
+        style={{ padding: "20px", color: "red", background: "red" }}
+      /> */}
+        </div>
+        <div>
           <Button id="btn__submit">Send message</Button>
         </div>
       </form>
