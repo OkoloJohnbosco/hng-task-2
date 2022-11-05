@@ -1,9 +1,11 @@
-import Footer from "../../components/footer";
-import Link, { links } from "../../components/link";
-import styles from "./home.module.css";
-import ingreImg from "../../assets/images/profile.jpg";
-import slackImg from "../../assets/images/slack.svg";
-import gitImg from "../../assets/images/git.svg";
+import Head from "next/head";
+import Footer from "../components/footer";
+import Link, { links } from "../components/link";
+import styles from "../styles/Home.module.css";
+import ingreImg from "../public/images/profile.jpg";
+import slackImg from "../public/images/slack.svg";
+import gitImg from "../public/images/git.svg";
+import Image from "next/image";
 import { AiOutlineCamera } from "react-icons/ai";
 import { IoMdShareAlt } from "react-icons/io";
 import { BsThreeDots } from "react-icons/bs";
@@ -11,6 +13,11 @@ import { BsThreeDots } from "react-icons/bs";
 export default function Home() {
   return (
     <div className={styles.container}>
+      <Head>
+        <title>HNG9 first task</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
       <main className={styles.main}>
         <section className={styles.main_profile}>
           <button className={styles.main_profile_menu}>
@@ -18,7 +25,7 @@ export default function Home() {
             <BsThreeDots fontSize="24px" fontWeight="bold" />
           </button>
           <div tabIndex={1}>
-            <img src={ingreImg} alt="" id="profile__img" />
+            <Image src={ingreImg} alt="" id="profile__img" />
             <div>
               <AiOutlineCamera
                 color="white"
@@ -39,15 +46,14 @@ export default function Home() {
           ))}
         </div>
         <div className={styles.main_last}>
-          <a href="/#">
-            <img src={slackImg} alt="slack icon" />
+          <a>
+            <Image src={slackImg} alt="slack image" />
           </a>
           <a
             href="https://github.com/OkoloJohnbosco/HNG-task-1"
             target="_blank"
-            rel="noopener noreferrer"
           >
-            <img src={gitImg} alt="github icon" />
+            <Image src={gitImg} alt="slack image" />
           </a>
         </div>
       </main>

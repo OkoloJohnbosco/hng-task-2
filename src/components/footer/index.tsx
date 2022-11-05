@@ -1,6 +1,6 @@
 import React from "react";
-import zuriImg from "../../public/images/zurin.svg";
-import ingreImg from "../../public/images/ingre.svg";
+import zuriImg from "../../assets/images/zurin.svg";
+import ingreImg from "../../assets/images/ingre.svg";
 import styles from "./footer.module.css";
 
 function Footer() {
