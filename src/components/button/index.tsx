@@ -11,7 +11,7 @@ function Button({
 }) {
   return (
     <div className={styles.button_wrapper}>
-      <button data-btn={variant} type={type}>
+      <button data-btn={variant} type={type} disabled>
         {children}
       </button>
     </div>
